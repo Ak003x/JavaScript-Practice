@@ -412,13 +412,29 @@
 
 // console.log(promise);
 
-//^reject & catch
-const promise2 = new Promise((resolve, reject) => {
-    setTimeout(() => {
-        let user = { name: "Akash" }; reject("Error 1 ")
-        console.log("Completed");
-    }, 2000)
-}).catch((reason) => console.log(reason))
+// //^reject & catch
+// const promise2 = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         let user = { name: "Akash" }; reject("Error 1 ")
+//         console.log("Completed");
+//     }, 2000)
+// }).catch((reason) => console.log(reason))
 
 
-console.log(promise2);
+// console.log(promise2);
+
+function getUser() {
+    return [
+        { name: "ak", Email: "ak@123.com", age: 54 },
+        { name: "ka", Email: "ka@123.com", age: 104 },
+    ]
+}
+
+
+function findUser(username) {
+    const users = getUser();
+    const user = users.find((user) => user.name === username)
+    return user;
+}
+
+console.log(findUser("ak"));
