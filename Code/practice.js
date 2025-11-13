@@ -437,4 +437,4 @@ function findUser(username) {
     return user;
 }
 
-console.log(findUser("ak"));
+console.log(findUser("ak", "ka"));
