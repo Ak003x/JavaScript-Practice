@@ -423,18 +423,21 @@
 
 // console.log(promise2);
 
-function getUser() {
-    return [
-        { name: "ak", Email: "ak@123.com", age: 54 },
-        { name: "ka", Email: "ka@123.com", age: 104 },
-    ]
-}
+// function getUser() {
+//     return [
+//         { name: "ak", Email: "ak@123.com", age: 54 },
+//         { name: "ka", Email: "ka@123.com", age: 104 },
+//     ]
+// }
 
 
-function findUser(username) {
-    const users = getUser();
-    const user = users.find((user) => user.name === username)
-    return user;
-}
+// function findUser(username) {
+//     const users = getUser();
+//     const user = users.find((user) => user.name === username)
+//     return user;
+// }
 
-console.log(findUser("ak", "ka"));
+// console.log(findUser("ak", "ka"));
+
+
+user
