@@ -440,4 +440,13 @@
 // console.log(findUser("ak", "ka"));
 
 
-user
+const user = {
+    name: "Ak",
+    age: 45,
+}
+
+const json = JSON.stringify(user);
+console.log(json);
+
+const parJson = JSON.parse(json);
+console.log(parJson);
