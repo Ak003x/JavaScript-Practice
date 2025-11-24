@@ -440,13 +440,41 @@
 // console.log(findUser("ak", "ka"));
 
 
-const user = {
-    name: "Ak",
-    age: 45,
-}
+// const user = {
+//     name: "Ak",
+//     age: 45,
+// }
 
-const json = JSON.stringify(user);
-console.log(json);
+// const json = JSON.stringify(user);
+// console.log(json);
 
-const parJson = JSON.parse(json);
-console.log(parJson);
+// const parJson = JSON.parse(json);
+// console.log(parJson);
+
+
+// let arr = [10, 20, 30];
+
+// arr.forEach((value) => {
+//     console.log(value * 2);
+// });
+
+
+// const [first,...last] = [1, 2, 3, 4, 5]
+// console.log(first);
+// console.log(last);
+
+
+// console.log(typeof(null));
+
+
+
+// const func = setInterval(() => {
+//     console.log("this is set interval");
+// }, 2000)
+
+
+// console.log(func);
+
+// setTimeout(() => {
+//     clearTimeout(func)
+// }, 6000);
