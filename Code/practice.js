@@ -12,7 +12,7 @@
 //   console.log(b); // 20
 
 //   if (true) {
-//     let b = 30; 
+//     let b = 30;
 //     console.log(b); // 30 (different block variable)
 //   }
 
@@ -40,7 +40,7 @@
 // }
 
 
-// console.log(greet("Alice", sayHello)); // "Hello, Alice!" 
+// console.log(greet("Alice", sayHello)); // "Hello, Alice!"
 
 
 // const numbers = [1, 2, 3, 4, 5];
@@ -73,7 +73,7 @@
 // let a=10;
 // function b(){
 //   let a=20;
-//   // console.log(a);    
+//   // console.log(a);
 // }
 // b();
 // console.log(a + " out");
@@ -102,7 +102,7 @@
 // let { fname, ...rest } = user;
 // let renamedUser = { name: fname, ...rest };
 
-// console.log(user); 
+// console.log(user);
 // // { name: "Akash", age: 22 }
 // let obj10 = {
 //   name: "sachin"
@@ -223,7 +223,7 @@
 // num
 
 
-//! fetch using then catch 
+//! fetch using then catch
 // const res = fetch('https://jsonplaceholder.typicode.com/posts').then(response => {
 //     if (!response.ok) {
 //         throw new Error ('Network response was not ok');
@@ -242,7 +242,7 @@
 // const fetchData = async () => {
 //     try {
 //         // ❌ Invalid endpoint on purpose
-//         const response = await fetch("https://jsonplaceholder.typicode.com/posts");  
+//         const response = await fetch("https://jsonplaceholder.typicode.com/posts");
 
 //         if (!response.ok) {
 //             // ✅ Correct syntax for including status
@@ -480,16 +480,33 @@
 // }, 6000);
 
 
-//* Reduce method 
-const number = [1, 2, 3, 4, 5];
+//* Reduce method
+// const number = [1, 2, 3, 4, 5];
 
-const sum = number.reduce((acc, curr) => {
-   return acc + curr
-
-
-
-}, 10);
-
-console.log(sum);
+// const sum = number.reduce((acc, curr) => {
+//    return acc + curr
 
 
+
+// }, 10);
+
+// console.log(sum);
+
+
+//*sum without reduce method
+// const number = [1, 2, 3, 4, 5];
+// let sum = 0;
+
+// for (let i = 0; i < number.length; i++) {
+//     sum += number[i];
+// }
+// console.log(sum);
+
+
+//*With for of loop
+// let sum2 = 0;
+
+// for (let num of number) {
+//     sum2 += num;
+// }
+// console.log("Sum:" + sum2);
