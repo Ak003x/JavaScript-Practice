@@ -478,3 +478,16 @@
 // setTimeout(() => {
 //     clearTimeout(func)
 // }, 6000);
+
+
+
+const number = [1, 2, 3, 4, 5];
+
+const sum = number.reduce((acc, curr) => {
+   return acc + curr
+
+
+
+}, 10);
+
+console.log(sum);
