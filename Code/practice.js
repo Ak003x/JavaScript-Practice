@@ -510,3 +510,15 @@
 //     sum2 += num;
 // }
 // console.log("Sum:" + sum2);
+
+
+
+//* Currying in js
+
+// function add(a) {
+//     return function (b) {
+//         return a * b;
+//     }
+// }
+// const add2 =add(2)
+// console.log(add2(12));
