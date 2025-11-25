@@ -41,7 +41,7 @@
 // delete obj["like this is"];
 // console.log(obj);
 
-//* 4. Access the key and making it dynamic 
+//* 4. Access the key and making it dynamic
 
 // const property = "FirstName";
 // const name = "Akash";
@@ -54,12 +54,43 @@
 
 // * 5. iterate the Objects with for in loop
 
-const obj = {
-    name: "ak",
-    age: 45,
-    "like this is": true,
+// const obj = {
+//     name: "ak",
+//     age: 45,
+//     "like this is": true,
+// }
+
+// for(key in obj){
+//     console.log(obj[key]); //Accessing the value. if we want key only user Key.
+// }
+
+//*6. object assign
+// const obj = {
+//     a:"first",
+//     b:"second",
+//     a:"three"
+// }
+
+// console.log(obj);
+//! a: value will be assign as three.
+
+//*7  Create a function(obj) that multiple only all numeric property  value  of num by 2 
+
+const nums = {
+
+    a: 100,
+    b: 200,
+    title: "My nums"
 }
 
-for(key in obj){
-    console.log(obj[key]); //Accessing the value. if we want key only user Key.
+function multipleOf2(obj) {
+    for (key in obj) {
+        if (typeof obj[key] === "number") {
+            obj[key] *= 2;
+        }
+    }
+
+
 }
+
+console.log(multipleOf2(nums));
