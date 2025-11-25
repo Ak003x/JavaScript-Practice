@@ -29,11 +29,37 @@
 // const obj = {
 //     name: "ak",
 //     age: 45,
+//     "like this is": true,
 // }
-//! To access 
+//! To access
 // console.log(obj.name);
+// console.log(obj["like this is"]);
 //! Modify
 // obj.name = "Akash";
 //! Delete
 // delete obj.age;
+// delete obj["like this is"];
 // console.log(obj);
+
+//* 4. Access the key and making it dynamic 
+
+// const property = "FirstName";
+// const name = "Akash";
+
+// const obj = {
+//     [property]: name,
+// }
+
+// console.log(obj);
+
+// * 5. iterate the Objects with for in loop
+
+const obj = {
+    name: "ak",
+    age: 45,
+    "like this is": true,
+}
+
+for(key in obj){
+    console.log(obj[key]); //Accessing the value. if we want key only user Key.
+}
