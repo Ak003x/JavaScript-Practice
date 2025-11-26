@@ -76,21 +76,18 @@
 
 //*7  Create a function(obj) that multiple only all numeric property  value  of num by 2 
 
-const nums = {
+// const nums = {
 
-    a: 100,
-    b: 200,
-    title: "My nums"
-}
-
-function multipleOf2(obj) {
-    for (key in obj) {
-        if (typeof obj[key] === "number") {
-            obj[key] *= 2;
-        }
-    }
-
-
-}
-
-console.log(multipleOf2(nums));
+//     a: 100,
+//     b: 200,
+//     title: "My nums"
+// }
+// function multipleOf2(obj) {
+//     for (key in obj) {
+//         if (!isNaN(obj[key])) {
+//             obj[key] = obj[key] * 2;
+//         }
+//     }
+//     return obj;
+// }
+// console.log(multipleOf2(nums));
