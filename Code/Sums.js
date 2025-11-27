@@ -74,7 +74,7 @@
 // console.log(obj);
 //! a: value will be assign as three.
 
-//*7  Create a function(obj) that multiple only all numeric property  value  of num by 2 
+//*7  Create a function(obj) that multiple only all numeric property  value  of num by 2
 
 // const nums = {
 
