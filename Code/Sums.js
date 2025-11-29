@@ -111,17 +111,17 @@
 
 //*9 Destructuring in obj
 
-const user = {
-    name: "Akash",
-    age: 45,
-    greet() {
-        console.log("hello")
-    },
-    firstName: {
-        first: "Ak",
-        Second: "ash"
-    }
-};
+// const user = {
+//     name: "Akash",
+//     age: 45,
+//     greet() {
+//         console.log("hello")
+//     },
+//     firstName: {
+//         first: "Ak",
+//         Second: "ash"
+//     }
+// };
 
 // 1. user.name = "ak"   changing the value
 // const { name: name2 } = user;
