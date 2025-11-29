@@ -95,15 +95,38 @@
 //*8 What is the output
 
 
-const shape = {
-    radius: 10,
-    diameter() {
-        return this.radius * 2;
+// const shape = {
+//     radius: 10,
+//     diameter() {
+//         return this.radius * 2;
+//     },
+
+
+//     perimeter: () => 2 * Math.PI * this.radius,
+// }
+
+// console.log(shape.diameter()); // 20
+// console.log(shape.perimeter()); //NAN
+
+
+//*9 Destructuring in obj
+
+const user = {
+    name: "Akash",
+    age: 45,
+    greet() {
+        console.log("hello")
     },
+    firstName: {
+        first: "Ak",
+        Second: "ash"
+    }
+};
 
+// 1. user.name = "ak"   changing the value
+// const { name: name2 } = user;
+// console.log(name2);
 
-    perimeter: () => 2 * Math.PI * this.radius,
-}
-
-console.log(shape.diameter()); // 20
-console.log(shape.perimeter()); //NAN
+// 2. access nested destructing
+// const { firstName: { first, Second } } = user;
+// console.log(first,Second);
