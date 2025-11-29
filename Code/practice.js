@@ -522,3 +522,7 @@
 // }
 // const add2 =add(2)
 // console.log(add2(12));
+
+//wat will be return -- floating point
+// console.log(0.1 + 0.2 === 0.3);
+
