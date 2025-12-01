@@ -126,3 +126,18 @@
 // 2. access nested destructing
 // const { firstName: { first, Second } } = user;
 // console.log(first,Second);
+
+//* 10 whats the output
+
+let c = {
+    greeting: "hey"
+}
+
+let d;
+
+d = c;
+
+d.greeting = "hello";
+console.log(d.greeting); // Hello
+
+
