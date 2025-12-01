@@ -22,7 +22,6 @@
 
 // to solve we have to add let
 
-
 //*3.problem About Objects
 
 //! Creation of Object
@@ -94,20 +93,17 @@
 
 //*8 What is the output
 
-
 // const shape = {
 //     radius: 10,
 //     diameter() {
 //         return this.radius * 2;
 //     },
 
-
 //     perimeter: () => 2 * Math.PI * this.radius,
 // }
 
 // console.log(shape.diameter()); // 20
 // console.log(shape.perimeter()); //NAN
-
 
 //*9 Destructuring in obj
 
