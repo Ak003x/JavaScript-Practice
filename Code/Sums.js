@@ -129,15 +129,35 @@
 
 //* 10 whats the output
 
-let c = {
-    greeting: "hey"
-}
+// let c = {
+//     greeting: "hey"
+// }
 
-let d;
+// let d;
 
-d = c;
+// d = c;
 
-d.greeting = "hello";
-console.log(d.greeting); // Hello
+// d.greeting = "hello";
+// console.log(d.greeting); // Hello
+
+// console.log({ a: 1 } == { a: 1 });
+// console.log({ a: 1 } === { a: 1 }); //references not value
 
 
+//* example of above sum
+// const arr1 = [1, 2];
+// const arr2 = arr1;
+// arr2.push(3);
+// console.log(arr1);
+
+
+//* 11 wats the output 
+
+// const value = { number: 10 };
+
+// const multiple = (x = { ...value }) => {
+//     console.log((x.number *= 2));
+// }
+// multiple(); //20
+// multiple(value); //20
+// multiple(value); //40
