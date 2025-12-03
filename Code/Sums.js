@@ -151,7 +151,7 @@
 // console.log(arr1);
 
 
-//* 11 wats the output 
+//* 11 wats the output
 
 // const value = { number: 10 };
 
@@ -161,3 +161,32 @@
 // multiple(); //20
 // multiple(value); //20
 // multiple(value); //40
+
+//*12 wats the output
+
+// function changeAgeAndReference(person) {
+//     person.age = 25;
+//     person = {
+//         name: "Akash",
+//         age: 45,
+//     }
+//     return person;
+// }
+// const personObj1 = {
+//     name: "Alex",
+//     age: 46,
+// }
+// const personObj2 = changeAgeAndReference(personObj1);
+
+
+// console.log(personObj1);
+// console.log(personObj2);
+
+
+//* 13 shallow copy & deep copy
+
+
+const developer1 = { name: "Ak", age: 45 }
+const developer2 = { name: "Akash", age: 25 }
+
+
