@@ -187,6 +187,18 @@
 
 
 const developer1 = { name: "Ak", age: 45 }
-const developer2 = { name: "Akash", age: 25 }
 
+
+//! shallow copy - ... , slice()
+
+// let developer2 = developer1;
+// ...
+// let developer2 = { ...developer1 }
+// slice()
+let developer2 = Object.assign({}, developer1)
+console.log(developer2);
+
+developer1.name = "New data";
+console.log(developer1);
+console.log(developer2);
 
