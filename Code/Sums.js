@@ -195,7 +195,10 @@ const developer1 = { name: "Ak", age: 45, details: { name1:"ak"} }
 // ...
 // let developer2 = { ...developer1 }
 // slice()
+
+//deep copy
 let developer2 = structuredClone(developer1)
+
 console.log(developer2);
 
 developer1.name = "New data";
