@@ -186,7 +186,7 @@
 //* 13 shallow copy & deep copy
 
 
-const developer1 = { name: "Ak", age: 45, details: { name1:"ak"} }
+// const developer1 = { name: "Ak", age: 45, details: { name1:"ak"} }
 
 
 //! shallow copy - ... , slice()
@@ -197,7 +197,7 @@ const developer1 = { name: "Ak", age: 45, details: { name1:"ak"} }
 // slice()
 
 //deep copy
- // let developer2 = structuredClone(developer1)
+// let developer2 = structuredClone(developer1)
 
 // console.log(developer2);
 
