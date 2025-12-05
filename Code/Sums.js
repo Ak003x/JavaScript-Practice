@@ -205,3 +205,7 @@
 // console.log(developer1);
 // console.log(developer2);
 
+// function add(value) {
+//     return x + y;
+// }
+// console.log(add(4));
