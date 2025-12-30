@@ -535,3 +535,7 @@
 // // let b = Number(a);
 // console.log(typeof b);
 // console.log(b);
+
+let c = {};
+console.log(typeof c);
+console.log(Boolean(c));
