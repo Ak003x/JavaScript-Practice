@@ -528,10 +528,10 @@
 
 
 //* Convention to number
-let a = "44564Tap";
-console.log(typeof a);
+// let a = "Tap44564";
+// console.log(typeof a);
 
 // let b = parseInt(a);
-let b = Number(a);
-console.log(typeof b);
-console.log(b);
+// // let b = Number(a);
+// console.log(typeof b);
+// console.log(b);
