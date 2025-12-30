@@ -536,6 +536,9 @@
 // console.log(typeof b);
 // console.log(b);
 
-let c = {};
-console.log(typeof c);
-console.log(Boolean(c));
+// let c = {};
+// console.log(typeof c);
+// console.log(Boolean(c));
+
+
+console.log(Boolean([]));

@@ -209,3 +209,16 @@
 //     return x + y;
 // }
 // console.log(add(4));
+
+
+//! Simple ticket Sum
+
+let age = 18;
+
+if (age <= 18) {
+    console.log("Child ticket");
+} else if (age > 18 && age <= 65) {
+    console.log("Adult ticket");
+} else {
+    console.log("senior ticket");
+}
