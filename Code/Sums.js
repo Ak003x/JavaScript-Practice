@@ -213,12 +213,27 @@
 
 //! Simple ticket Sum
 
-let age = 18;
+// let age = 66;
 
-if (age <= 18) {
-    console.log("Child ticket");
-} else if (age > 18 && age <= 65) {
-    console.log("Adult ticket");
-} else {
-    console.log("senior ticket");
+// if (age <= 18) {
+//     console.log("Child ticket");
+// } else if (age > 18 && age <= 65) {
+//     console.log("Adult ticket");
+// } else {
+//     console.log("senior ticket");
+// }
+
+//! Using Switch sum
+
+let days = 0;
+
+switch (days) {
+    case 0:
+       // instead of writing same cases we can do like this
+        // console.log("Happy Weekend");
+        // break; 
+
+    case 6:
+        console.log("Happy Weekend");
+        break;
 }
