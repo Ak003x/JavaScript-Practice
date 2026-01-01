@@ -225,29 +225,30 @@
 
 //! Using Switch sum
 
-let days = 7;
+// let days = 7;
 
-switch (days) {
-    case 0:
-    // instead of writing same cases we can do like this remove the same answers
-    // console.log("Happy Weekend");
-    // break; 
+// switch (days) {
+//     case 0:
+//     // instead of writing same cases we can do like this remove the same answers
+//     // console.log("Happy Weekend");
+//     // break; 
 
-    case 6:
-        console.log("Happy Weekend");
-        break;
+//     case 6:
+//         console.log("Happy Weekend");
+//         break;
 
-    case 1:
-        console.log("Shit monday!");
-        break;
-    case 2:
-    case 3:
-    case 4:
-        console.log("Mid Week");
-        break;
-    case 5:
-        console.log("its friday");
-        break;
-    default:
-        console.log("ERROR : u are Wrong");
-}
+//     case 1:
+//         console.log("Shit monday!");
+//         break;
+//     case 2:
+//     case 3:
+//     case 4:
+//         console.log("Mid Week");
+//         break;
+//     case 5:
+//         console.log("its friday");
+//         break;
+//     default:
+//         console.log("ERROR : u are Wrong");
+// }
+
