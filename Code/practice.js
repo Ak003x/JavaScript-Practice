@@ -541,4 +541,9 @@
 // console.log(Boolean(c));
 
 
-console.log(Boolean([]));
+// console.log(Boolean([]));
+
+//! ternary operator
+let age = 16;
+let message = age >= 18 ? "U can vote" : "u cant vote";
+console.log(message);
