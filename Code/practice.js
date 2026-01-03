@@ -544,6 +544,14 @@
 // console.log(Boolean([]));
 
 //! ternary operator
-let age = 16;
-let message = age >= 18 ? "U can vote" : "u cant vote";
-console.log(message);
+// let age = 16;
+// let message = age >= 18 ? "U can vote" : "u cant vote";
+// console.log(message);
+
+//! loops
+
+//*for loop
+
+for (i = 0; i <= 5; i++) {
+console.log("*");
+}
