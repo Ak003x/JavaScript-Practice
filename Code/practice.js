@@ -552,6 +552,23 @@
 
 //*for loop
 
-for (i = 0; i <= 5; i++) {
-console.log("*");
-}
+// for (i = 1; i <= 5; i++) {
+//     console.log("*");
+// }
+
+//* While loop
+
+// i=1;
+// while (i <= 5) {
+//     console.log("*");
+//     i++
+// }
+
+
+//* Do while loop
+
+// i = 1;
+// do {
+//     console.log("*");
+//     i++;
+// } while (i <= 5);
