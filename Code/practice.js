@@ -575,13 +575,30 @@
 
 //! pattern programming
 
-//^ to print Square
-for (i = 1; i <= 5; i++) {
+//^ to print Square n*n
+// let n = 8;
+// for (i = 1; i <= n; i++) {
 
-    let row = "";
-    for (j = 1; j <= 5; j++) {
-        row = row + "*";
+//     let row = "";
+//     for (j = 1; j <= n; j++) {
+//         row = row + "*";
 
+//     }
+//     console.log(row);
+// }
+
+//^ Hallow Square
+
+let n = 8;
+for (i = 1; i <= n; i++) {
+    let row = " ";
+    for (j = 1; j <= n; j++) {
+
+        if (i == 1 || i == n || j == 1 || j == n) {
+            row += "*";
+        } else
+            row += " ";
     }
     console.log(row);
 }
+
