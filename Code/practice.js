@@ -589,16 +589,31 @@
 
 //^ Hallow Square
 
-let n = 8;
+// let n = 8;
+// for (i = 1; i <= n; i++) {
+//     let row = " ";
+//     for (j = 1; j <= n; j++) {
+
+//         if (i == 1 || i == n || j == 1 || j == n) {
+//             row += i; // if want number use i index value or " *"
+//         } else
+//             row += " ";
+//     }
+//     console.log(row);
+// }
+
+
+let n = 10;
 for (i = 1; i <= n; i++) {
+
     let row = " ";
     for (j = 1; j <= n; j++) {
-
         if (i == 1 || i == n || j == 1 || j == n) {
             row += "*";
         } else
             row += " ";
+
+
     }
     console.log(row);
 }
-
