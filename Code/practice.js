@@ -603,12 +603,12 @@
 // }
 
 
-let n = 10;
+let n = 15;
 for (i = 1; i <= n; i++) {
 
     let row = " ";
     for (j = 1; j <= n; j++) {
-        if (i == 1 || i == n || j == 1 || j == n) {
+        if (i == 1 || i == n || j == 1 || j == n || j == n/2) {
             row += "*";
         } else
             row += " ";
