@@ -603,17 +603,29 @@
 // }
 
 
-let n = 15;
+// let n = 15;
+// for (i = 1 ; i <= n; i++) {
+
+//     let row = " ";
+//     for (j = 1; j <= n; j++) {
+//         if (i == 1 || i == n || j == 1 || j == n || j == Math.ceil(n / 2) || i == Math.ceil(n / 2)) {
+//             row += "*";
+//         } else
+//             row += " ";
+
+
+//     }
+//     console.log(row);
+// }
+
+
+let n = 5;
 for (i = 1; i <= n; i++) {
-
-    let row = " ";
+let row = " ";
     for (j = 1; j <= n; j++) {
-        if (i == 1 || i == n || j == 1 || j == n || j == n/2) {
-            row += "*";
-        } else
-            row += " ";
-
-
+        row += "*";
     }
+
+
     console.log(row);
 }
