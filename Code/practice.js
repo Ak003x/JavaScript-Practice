@@ -603,13 +603,14 @@
 // }
 
 
-let n = 15;
+let n = 25;
 for (i = 1; i <= n; i++) {
 
     let row = " ";
     for (j = 1; j <= n; j++) {
         if (i == 1 || i == n || j == 1 || j == n || j == Math.ceil(n / 2) || i == Math.ceil(n / 2) ||
-            i == j || i + j == n + 1 || i + j == Math.ceil(n / 2)) {
+            i == j || i + j == n + 1 || i + j == Math.ceil(n / 2) || i - j == Math.ceil(n / 2)
+            || i + j == (n + 1) + Math.ceil(n / 2)|| j-i==Math.ceil(n/2)) {
             row += "*";
         } else
             row += " ";
@@ -617,6 +618,8 @@ for (i = 1; i <= n; i++) {
 
     }
     console.log(row);
+    
 }
+
 
 
