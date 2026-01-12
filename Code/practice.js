@@ -603,23 +603,38 @@
 // }
 
 
-let n = 25;
-for (i = 1; i <= n; i++) {
+// let n = 25;
+// for (i = 1; i <= n; i++) {
 
-    let row = " ";
-    for (j = 1; j <= n; j++) {
-        if (i == 1 || i == n || j == 1 || j == n || j == Math.ceil(n / 2) || i == Math.ceil(n / 2) ||
-            i == j || i + j == n + 1 || i + j == Math.ceil(n / 2) || i - j == Math.ceil(n / 2)
-            || i + j == (n + 1) + Math.ceil(n / 2)|| j-i==Math.ceil(n/2)) {
-            row += "*";
-        } else
-            row += " ";
-
-
-    }
-    console.log(row);
-    
-}
+//     let row = " ";
+//     for (j = 1; j <= n; j++) {
+//         if (i == 1 || i == n || j == 1 || j == n || j == Math.ceil(n / 2) || i == Math.ceil(n / 2) ||
+//             i == j || i + j == n + 1 || i + j == Math.ceil(n / 2) || i - j == Math.ceil(n / 2)
+//             || i + j == (n + 1) + Math.ceil(n / 2)|| j-i==Math.ceil(n/2)) {
+//             row += "*";
+//         } else
+//             row += " ";
 
 
+//     }
+//     console.log(row);
 
+// }
+
+// let a = 100;
+// let b = 200;
+
+// function test() {
+
+//     let c = a + b
+
+//    return c;
+// }
+
+// let res = test();
+// console.log(res);
+
+// IIFE function
+(function () {
+    console.log("I run immediately");
+})();
