@@ -638,3 +638,7 @@
 // (function () {
 //     console.log("I run immediately");
 // })();
+
+// console.log(a);
+// var a =10;
+// console.log(a);
