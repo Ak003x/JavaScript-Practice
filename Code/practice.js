@@ -635,6 +635,6 @@
 // console.log(res);
 
 // IIFE function
-(function () {
-    console.log("I run immediately");
-})();
+// (function () {
+//     console.log("I run immediately");
+// })();
