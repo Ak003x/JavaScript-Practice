@@ -642,3 +642,14 @@
 // console.log(a);
 // var a =10;
 // console.log(a);
+
+
+//scope
+function num(number) {
+    for (var i = 1; i <= number; i++) {
+        console.log(i);
+    }
+    console.log("i here", i);
+}
+
+num(5);
