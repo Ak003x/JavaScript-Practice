@@ -645,11 +645,11 @@
 
 
 //scope
-function num(number) {
-    for (var i = 1; i <= number; i++) {
-        console.log(i);
-    }
-    console.log("i here", i);
-}
+// function num(number) {
+//     for (var i = 1; i <= number; i++) {
+//         console.log(i);
+//     }
+//     console.log("i here", i);
+// }
 
-num(5);
+// num(5);
