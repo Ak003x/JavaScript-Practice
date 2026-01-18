@@ -231,7 +231,7 @@
 //     case 0:
 //     // instead of writing same cases we can do like this remove the same answers
 //     // console.log("Happy Weekend");
-//     // break; 
+//     // break;
 
 //     case 6:
 //         console.log("Happy Weekend");
