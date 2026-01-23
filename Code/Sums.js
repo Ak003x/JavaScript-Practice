@@ -283,14 +283,14 @@
 
 // exmp();
 
-(function outerFunction() {
-    console.log("Outerfunction started execution 1");
-    let outerVar = 10;
-    function innerFunction() {
-        console.log("interFunction started execution 2 ")
-        console.log("outerVar 3 :", outerVar)
-        console.log("interFunction finished execution 4 ");
-    }
-    console.log("Outerfunction finished execution 5 ");
-    return innerFunction;
-})()(); // => using two ()() in IIFE we can call the functions
+// (function outerFunction() {
+//     console.log("Outerfunction started execution 1");
+//     let outerVar = 10;
+//     function innerFunction() {
+//         console.log("interFunction started execution 2 ")
+//         console.log("outerVar 3 :", outerVar)
+//         console.log("interFunction finished execution 4 ");
+//     }
+//     console.log("Outerfunction finished execution 5 ");
+//     return innerFunction;
+// })()(); // => using two ()() in IIFE we can call the functions
