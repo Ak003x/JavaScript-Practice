@@ -252,4 +252,19 @@
 //         console.log("ERROR : u are Wrong");
 // }
 
-// objects
+// objects\
+
+function outerFunction() {
+    console.log("Outerfunction started execution");
+    let outerVar = 10;
+    function innerFunction() {
+        console.log("interFunction started execution")
+        console.log("outerVar:", outerVar)
+        console.log("interFunction finished execution");
+    }
+    console.log("Outerfunction finished execution");
+    return innerFunction;
+}
+exmp = outerFunction();
+exmp();
+
