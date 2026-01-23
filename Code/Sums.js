@@ -253,18 +253,32 @@
 // }
 
 // objects\
+// normal function
+// function outerFunction() {
+//     console.log("Outerfunction started execution");
+//     let outerVar = 10;
+//     function innerFunction() {
+//         console.log("interFunction started execution")
+//         console.log("outerVar:", outerVar)
+//         console.log("interFunction finished execution");
+//     }
+//     console.log("Outerfunction finished execution");
+//     return innerFunction;
+// }
+// exmp = outerFunction();
+// exmp();
 
-function outerFunction() {
-    console.log("Outerfunction started execution");
-    let outerVar = 10;
-    function innerFunction() {
-        console.log("interFunction started execution")
-        console.log("outerVar:", outerVar)
-        console.log("interFunction finished execution");
-    }
-    console.log("Outerfunction finished execution");
-    return innerFunction;
-}
-exmp = outerFunction();
-exmp();
+//IIfE
+// const exmp = (function outerFunction() {
+//     console.log("Outerfunction started execution");
+//     let outerVar = 10;
+//     function innerFunction() {
+//         console.log("interFunction started execution")
+//         console.log("outerVar:", outerVar)
+//         console.log("interFunction finished execution");
+//     }
+//     console.log("Outerfunction finished execution");
+//     return innerFunction;
+// })();
 
+// exmp();
