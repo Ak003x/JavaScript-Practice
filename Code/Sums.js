@@ -294,3 +294,14 @@
 //     console.log("Outerfunction finished execution 5 ");
 //     return innerFunction;
 // })()(); // => using two ()() in IIFE we can call the functions
+
+//counter
+
+function createCounter() {
+    let counter = 0;
+
+    return function () {
+        counter += 1;
+    }
+}
+ createCounter;
