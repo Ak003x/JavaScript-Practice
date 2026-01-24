@@ -288,18 +288,18 @@
 //     return innerFunction;
 // })()(); // => using two ()() in IIFE we can call the functions
 
-//counter function
+// counter function
 
-function createCounter() {
-    let counter = 0;
+// function createCounter() {
+//     let counter = 0;
 
-    return function () {
-        counter += 1;
-        console.log(counter);
-    };
-}
+//     return function () {
+//         counter += 1;
+//         console.log(counter);
+//     };
+// }
 
-let create = createCounter();
-create();
+// let create = createCounter();
+// create();
 
 
