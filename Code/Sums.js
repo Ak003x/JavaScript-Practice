@@ -143,13 +143,11 @@
 // console.log({ a: 1 } == { a: 1 });
 // console.log({ a: 1 } === { a: 1 }); //references not value
 
-
 //* example of above sum
 // const arr1 = [1, 2];
 // const arr2 = arr1;
 // arr2.push(3);
 // console.log(arr1);
-
 
 //* 11 wats the output
 
@@ -178,16 +176,12 @@
 // }
 // const personObj2 = changeAgeAndReference(personObj1);
 
-
 // console.log(personObj1);
 // console.log(personObj2);
 
-
 //* 13 shallow copy & deep copy
 
-
 // const developer1 = { name: "Ak", age: 45, details: { name1:"ak"} }
-
 
 //! shallow copy - ... , slice()
 
@@ -209,7 +203,6 @@
 //     return x + y;
 // }
 // console.log(add(4));
-
 
 //! Simple ticket Sum
 
@@ -295,13 +288,18 @@
 //     return innerFunction;
 // })()(); // => using two ()() in IIFE we can call the functions
 
-//counter
+//counter function
 
 function createCounter() {
     let counter = 0;
 
     return function () {
         counter += 1;
-    }
+        console.log(counter);
+    };
 }
- createCounter;
+
+let create = createCounter();
+create();
+
+
