@@ -664,9 +664,21 @@
 // Square root  map
 
 
-let number = [1, 4, 9, 16, 18, 19, 27, 30, 45];
+// let number = [1, 4, 9, 16, 18, 19, 27, 30, 45];
 // let result = number.map(x => Math.sqrt(x));
 // console.log(result);
 
-let age = number.filter(x => x >= 18);
-console.log(age);
+// let age = number.filter(x => x >= 18);
+// console.log(age);
+
+let num = [1, 2, 3, 4];
+let sum = num.reduce((acc, x) => acc + x);
+// console.log(sum);
+
+//some
+let Marks = [100, 200, 42, 60, 250, 36];
+let pass = Marks.some(x => x > 35)
+//every
+let ALLpass = Marks.every(x => x > 35)
+console.log(pass);
+console.log(ALLpass);
