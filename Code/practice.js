@@ -653,3 +653,17 @@
 // }
 
 // num(5);
+
+//^ splice
+
+// let arr = [10, 20, 30, 40, 50];
+// let remo = arr.splice(2, 7)
+// console.log(remo);
+// console.log(arr);
+
+// Square root  map
+
+
+let number = [1, 4, 9, 16,];
+let result = number.map(x => Math.sqrt(x));
+console.log(result);
