@@ -664,6 +664,9 @@
 // Square root  map
 
 
-let number = [1, 4, 9, 16,];
-let result = number.map(x => Math.sqrt(x));
-console.log(result);
+let number = [1, 4, 9, 16, 18, 19, 27, 30, 45];
+// let result = number.map(x => Math.sqrt(x));
+// console.log(result);
+
+let age = number.filter(x => x >= 18);
+console.log(age);
