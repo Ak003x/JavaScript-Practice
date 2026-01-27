@@ -676,9 +676,15 @@ let sum = num.reduce((acc, x) => acc + x);
 // console.log(sum);
 
 //some
-let Marks = [100, 200, 42, 60, 250, 36];
+let Marks = [100, 200, 42, 60, 250, 36, 100,500];
 let pass = Marks.some(x => x > 35)
 //every
 let ALLpass = Marks.every(x => x > 35)
-console.log(pass);
-console.log(ALLpass);
+// console.log(pass);
+// console.log(ALLpass);
+
+//find
+let res = Marks.find(x => x > 400);
+let res1 = Marks.findIndex(x => x > 400);
+console.log(res);
+console.log(res1);
