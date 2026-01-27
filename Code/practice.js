@@ -671,20 +671,50 @@
 // let age = number.filter(x => x >= 18);
 // console.log(age);
 
-let num = [1, 2, 3, 4];
-let sum = num.reduce((acc, x) => acc + x);
+// let num = [1, 2, 3, 4];
+// let sum = num.reduce((acc, x) => acc + x);
 // console.log(sum);
 
 //some
-let Marks = [100, 200, 42, 60, 250, 36, 100,500];
-let pass = Marks.some(x => x > 35)
-//every
-let ALLpass = Marks.every(x => x > 35)
-// console.log(pass);
-// console.log(ALLpass);
+// let Marks = [100, 200, 42, 60, 250, 36, 100,500];
+// let pass = Marks.some(x => x > 35)
+// //every
+// let ALLpass = Marks.every(x => x > 35)
+// // console.log(pass);
+// // console.log(ALLpass);
 
-//find
-let res = Marks.find(x => x > 400);
-let res1 = Marks.findIndex(x => x > 400);
-console.log(res);
-console.log(res1);
+// //find
+// let res = Marks.find(x => x > 400);
+// let res1 = Marks.findIndex(x => x > 400);
+// console.log(res);
+// console.log(res1);
+
+
+//^ shallow copy(spread operator)
+
+// let arr1 = [10, 20, 24, 30, 45];
+// method1:spread
+// let arr2 = [...arr1];
+
+//method2 :
+//  let arr2 = arr1.slice();
+
+// console.log(arr1);
+// console.log(arr2);
+
+// arr2.push(50);
+// console.log(arr2);
+
+
+
+let multiArr1 = [[10, 20, 30], [40, 50, 60]];
+
+// let multiArr2 = multiArr1.slice(); shallow copy
+ let multiArr2 =structuredClone(multiArr1)
+//! Deep copy : structuredClone
+
+multiArr1[0].push(70);
+multiArr2[1].push(60);
+console.log(multiArr1);
+console.log(multiArr2);
+
