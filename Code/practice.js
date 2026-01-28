@@ -718,3 +718,8 @@
 // console.log(multiArr1);
 // console.log(multiArr2);
 
+// let str1 = "javaScript";
+// let str2 = new String("javaScript");
+// console.log(str1 === str2);
+// console.log(typeof str1);
+// console.log(typeof str2);

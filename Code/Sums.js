@@ -299,7 +299,7 @@
 //     };
 // }
 
-// let create = createCounter();
-// create();
+let create = createCounter();
+create();
 
 
