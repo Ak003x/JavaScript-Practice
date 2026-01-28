@@ -707,14 +707,14 @@
 
 
 
-let multiArr1 = [[10, 20, 30], [40, 50, 60]];
+// let multiArr1 = [[10, 20, 30], [40, 50, 60]];
 
 // let multiArr2 = multiArr1.slice(); shallow copy
- let multiArr2 =structuredClone(multiArr1)
+//  let multiArr2 =structuredClone(multiArr1)
 //! Deep copy : structuredClone
 
-multiArr1[0].push(70);
-multiArr2[1].push(60);
-console.log(multiArr1);
-console.log(multiArr2);
+// multiArr1[0].push(70);
+// multiArr2[1].push(60);
+// console.log(multiArr1);
+// console.log(multiArr2);
 
