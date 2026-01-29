@@ -723,3 +723,9 @@
 // console.log(str1 === str2);
 // console.log(typeof str1);
 // console.log(typeof str2);
+// str1[10] ="A";
+// console.log(str1);
+
+let email = "akash003@gmail.com";
+email = email.toUpperCase();
+console.log(email);
