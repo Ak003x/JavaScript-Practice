@@ -729,3 +729,8 @@
 // let email = "akash003@gmail.com";
 // email = email.toUpperCase();
 // console.log(email);
+
+let str = "javaScript is a programming language"
+let str1 = str.replace("is","was");//to replace 
+str.includes("javaScript")
+console.log(str1);
