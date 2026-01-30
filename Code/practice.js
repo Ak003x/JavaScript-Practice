@@ -726,6 +726,6 @@
 // str1[10] ="A";
 // console.log(str1);
 
-let email = "akash003@gmail.com";
-email = email.toUpperCase();
-console.log(email);
+// let email = "akash003@gmail.com";
+// email = email.toUpperCase();
+// console.log(email);
