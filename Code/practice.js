@@ -738,3 +738,10 @@
 // console.log("--".repeat(10));
 // console.log(str2);
 // console.log("--".repeat(10));
+
+// promise
+let promise = new Promise((reject) => {
+    console.log("execution function....");
+    reject("failure");
+}); 
+console.log(promise);
