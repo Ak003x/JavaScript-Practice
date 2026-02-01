@@ -740,8 +740,11 @@
 // console.log("--".repeat(10));
 
 // promise
-let promise = new Promise((reject) => {
+let promise = new Promise((resolve) => {
     console.log("execution function....");
-    reject("failure");
-}); 
-console.log(promise);
+    resolve("pass");
+
+});
+promise
+    .then((result) => console.log(result))
+    .catch((result) => console.log(result));
