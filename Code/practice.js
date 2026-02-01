@@ -730,11 +730,11 @@
 // email = email.toUpperCase();
 // console.log(email);
 
-let str = "javaScript is and programming language"
-let str1 = str.replace("is", "was");//to replace 
-str.includes("javaScript")
-let str2 = str.slice(0, str.indexOf("and"));
-// console.log(str1);
-console.log("--".repeat(10));
-console.log(str2);
-console.log("--".repeat(10));
+// let str = "javaScript is and programming language"
+// let str1 = str.replace("is", "was");//to replace 
+// str.includes("javaScript")
+// let str2 = str.slice(0, str.indexOf("and"));
+// // console.log(str1);
+// console.log("--".repeat(10));
+// console.log(str2);
+// console.log("--".repeat(10));
