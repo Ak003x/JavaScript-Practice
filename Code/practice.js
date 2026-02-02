@@ -748,3 +748,76 @@
 // promise
 //     .then((result) => console.log(result))
 //     .catch((result) => console.log(result));
+
+
+//^ promises 2
+
+// function exmp() {
+//     // console.log("start 1");
+//     return new Promise((resolve, reject) => {
+//         console.log("Running.... ");
+//         setTimeout(() => {
+//             console.log("Task Completed");
+//             resolve();
+//         }, 3000)
+//     })
+// }
+
+
+
+function step1() {
+    // console.log("start 1");
+    return new Promise((resolve, reject) => {
+        console.log("Running.... ");
+        setTimeout(() => {
+            console.log("Task Completed 1 ");
+            resolve();
+        }, 3000)
+    })
+}
+
+
+function step2() {
+    // console.log("start 1");
+    return new Promise((resolve, reject) => {
+        console.log("Running.... ");
+        setTimeout(() => {
+            resolve();
+            console.log("Task Completed 2 ");
+        }, 3000)
+    })
+}
+
+
+
+function step3() {
+    // console.log("start 1");
+    return new Promise((resolve, reject) => {
+        console.log("Running.... ");
+        setTimeout(() => {
+            console.log("Task Completed 3");
+            resolve();
+        }, 3000)
+    })
+}
+// console.log("2");
+// exmp()
+//     .then(() => console.log("promise fulfilled"))
+//     .catch(() => console.log("promise failed"));
+//     // console.log("3");
+
+
+/// using async & await
+async function run() {
+    try {
+        await step1();
+        await step2();
+        await step3();
+
+        console.log("SuccessFull");
+    } catch (error) {
+        console.log("failed");
+    }
+}
+
+run();
